@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #202124;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    font-size: 13px;
+}
+
+
+header div {
+    display: inline-block;
+    flex-grow: 1;
+    
+
+}
+
+header div {
+    float: right;
+    padding-left: 32px;
+    padding-top: 0.3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+header div a{
+    color: white;
+    text-decoration: none;
+    margin-right: 6px;
+    margin-left: 6px;
+    font-family: arial,sans-serif;
+    line-height: normal;
+    
+}
+
+div a img {
+    width: 30px;
+    border-radius: 120px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.buscador{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buscador input{
+    display: inherit;
+    margin-bottom: 16px;
+    height: 100%;
+    border-radius: 80px;
+    padding: 0.5rem;
+    font-size: inherit;
+    background-color: #202124;
+    border: 1px solid rgb(85, 85, 85);
+    width: 100%;
+    color: white;
+    padding-left: 1rem;
+}
+
+.buscador div:nth-child(2){
+    width: 40%;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #1d1d1f;;
+    
+}
+.footer .pais{
+    border-bottom: 1px solid #444446;
+    padding: 0.5rem;
+}
+.pais span{
+    margin-left: 1.2rem;
+    color: #acacac;
+    font-family: arial,sans-serif;
+    line-height: normal;
+    font-size: 12px;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    
+}
+
+.items ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.items ul li{
+    padding: 0.6rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: #acacac;
+    font-family: arial,sans-serif;
+    line-height: normal;
+    font-size: 12px;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.input-wrapper {
+    position: relative;
+    width: 271px;
+ }
+
+ .input-icon {
+    color: #c0c0c0;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-80%);
+ }
