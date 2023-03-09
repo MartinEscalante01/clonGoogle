@@ -155,3 +155,17 @@ li a{
     top: 50%;
     transform: translateY(-80%);
  }
+
+ .botones button {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color:  #494949;
+    border: 1px solid  #494949;
+    color: white;
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    line-height: normal;
+ }
